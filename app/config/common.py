@@ -27,4 +27,4 @@ IMGUR_CLIENT_SECRET = ''
 
 ENCRYPTED_INFO_MAX_AGE = 60 * 60 * 12  # 12 hours
 
-URL = 'https://48e34a54.ngrok.io'
+URL = ''

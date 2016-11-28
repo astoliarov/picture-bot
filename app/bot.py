@@ -119,7 +119,7 @@ BOT_MESSAGES = {
     'uploaded': 'Successfully upload image to Imgur\nLink: {}',
     'no_command': 'Sorry. Cannot find command {}',
     'no_attachments': 'Sorry, there is no attached images at message',
-    'login': 'Here is the authorization link. Click on it to allow me upload pictures (will be valid 12 hours):',
+    'login': 'Here is the authorization link. Click on it to allow me upload pictures (will be valid for 12 hours):',
     'hello': """
 Hello! My name is Picture-Bot and I'am a bot)
 My goal is to help you upload images on Imgur.

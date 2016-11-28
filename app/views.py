@@ -15,7 +15,7 @@ from app.utils import encrypted_info_to_account, account_to_encrypted_info
 class WebhookView(MethodView):
     def get(self, *args, **kwargs):
         verify_token = request.args.get('hub.verify_token')
-        if verify_token == 'mAoR81uC2dk3y8KM0EX3VUU51GKRGUUn':
+        if verify_token == config.MARKER:
             return request.args['hub.challenge'], 200
         else:
             return '', 400

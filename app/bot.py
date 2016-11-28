@@ -40,6 +40,7 @@ def process_facebook_data(data):
 
             text = message['message'].get('text')
             attachments = message['message'].get('attachments')
+
             if not text:
                 continue
 
